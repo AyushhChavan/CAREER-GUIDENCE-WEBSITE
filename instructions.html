@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Instructions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background:  #577aae;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 40px 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4facfe;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 2em;
+        }
+        p {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        ol {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            padding-left: 20px;
+        }
+        ol li {
+            margin-bottom: 10px;
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+            background-color: #4facfe;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background-color: #00d4ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Test Instructions</h2>
+        <p>Welcome to the Career Assessment Test. Before you begin, please read the following instructions carefully:</p>
+        <ol>
+            <li>Ensure you are in a quiet environment free from distractions.</li>
+            <li>Answer each question honestly and to the best of your ability.</li>
+            <li>There is no time limit, so take your time.</li>
+            <li>Once you start the test, you cannot go back to previous questions.</li>
+            <li>Upon completion, you will receive personalized career recommendations based on your responses.</li>
+            <li>Consider all options before making your selection.</li>
+            <li>Consult a career advisor if you need further assistance.</li>
+        </ol>
+        <button onclick="startTest()">Start Test</button>
+    </div>
+
+    <script>
+        function startTest() {
+            window.location.href = "software_engineer.html";
+        }
+    </script>
+</body>
+</html>
